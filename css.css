@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI';
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.imgs {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    gap: 0.5em;
+}
+
+.search-container input{
+    font-size: 1em;
+    border: 3px solid #cc0000;
+    padding: 12px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.pokedex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokedex-container h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.pokedex-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.pokedex-container p {
+    text-align: center;
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: bold;
+}
